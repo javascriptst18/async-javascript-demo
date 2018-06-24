@@ -1,0 +1,55 @@
+body {
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  background-color: #314259;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, Helvetica Neue,
+    Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  max-width: 300px;
+  max-height: auto;
+  border-radius: 10px;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.button {
+  padding: 0.5em 1em;
+  margin: 2em;
+  font-size: 3rem;
+  margin-left: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.danger {
+  background-color: #ec4570;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.danger:hover {
+  background-color: hsla(344, 80%, 40%, 1);
+}
+
+.fine {
+  background-color: #45ec90;
+  color: #333;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.fine:hover {
+  background-color: rgb(20, 183, 126);
+}
